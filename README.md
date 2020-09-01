@@ -11,6 +11,14 @@ Below rules have been covered -
 6. If the payment is for video, add a free "first aid" video to packing slip.
 7. If the payment is for a physical product, generate a commission payment to agent
 
+Added PaymentRuleEngine .Net Core 3.1 Rule Engine
+
+Technologies Involed -
+
+.Net Core 3.1
+Xunit for Test Cases
+Moq
+
 
 
 
