@@ -1,0 +1,10 @@
+C:\Users\Asit_S\Desktop\Code\PaymentRuleEngine\PaymentRuleEngine\obj\Debug\netcoreapp3.1\PaymentRuleEngine.AssemblyInfoInputs.cache
+C:\Users\Asit_S\Desktop\Code\PaymentRuleEngine\PaymentRuleEngine\obj\Debug\netcoreapp3.1\PaymentRuleEngine.AssemblyInfo.cs
+C:\Users\Asit_S\Desktop\Code\PaymentRuleEngine\PaymentRuleEngine\bin\Debug\netcoreapp3.1\PaymentRuleEngine.exe
+C:\Users\Asit_S\Desktop\Code\PaymentRuleEngine\PaymentRuleEngine\bin\Debug\netcoreapp3.1\PaymentRuleEngine.deps.json
+C:\Users\Asit_S\Desktop\Code\PaymentRuleEngine\PaymentRuleEngine\bin\Debug\netcoreapp3.1\PaymentRuleEngine.runtimeconfig.json
+C:\Users\Asit_S\Desktop\Code\PaymentRuleEngine\PaymentRuleEngine\bin\Debug\netcoreapp3.1\PaymentRuleEngine.runtimeconfig.dev.json
+C:\Users\Asit_S\Desktop\Code\PaymentRuleEngine\PaymentRuleEngine\bin\Debug\netcoreapp3.1\PaymentRuleEngine.dll
+C:\Users\Asit_S\Desktop\Code\PaymentRuleEngine\PaymentRuleEngine\bin\Debug\netcoreapp3.1\PaymentRuleEngine.pdb
+C:\Users\Asit_S\Desktop\Code\PaymentRuleEngine\PaymentRuleEngine\obj\Debug\netcoreapp3.1\PaymentRuleEngine.dll
+C:\Users\Asit_S\Desktop\Code\PaymentRuleEngine\PaymentRuleEngine\obj\Debug\netcoreapp3.1\PaymentRuleEngine.pdb

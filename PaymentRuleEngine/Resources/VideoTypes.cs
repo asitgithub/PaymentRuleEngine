@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Text;
 
-namespace PaymentRuleEngine.Resources
+namespace PaymentRuleEngine
 {
     public enum VideoTypes
     {
@@ -12,3 +12,4 @@ namespace PaymentRuleEngine.Resources
         Others = 2
     }
 }
+    

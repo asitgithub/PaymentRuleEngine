@@ -1,12 +1,24 @@
-﻿using System;
+﻿using Microsoft.Extensions.DependencyInjection;
+using System;
 
 namespace PaymentRuleEngine
 {
-	class Program
+	public class Program
 	{
-		static void Main(string[] args)
-		{
-			Console.WriteLine("Hello World!");
-		}
-	}
+        public static void Main(string[] args)
+        {
+            var serviceCollection = new ServiceCollection();
+
+            //Service configuration setup for dependency injection
+            serviceCollection.AddTransient<IEmailNotifier, EmailNotifier>();
+            serviceCollection.AddTransient<IPackingSlipGenerator, PackingSlpGenerator>();
+
+            var serviceProvider = serviceCollection.BuildServiceProvider();
+
+            // This is where dependency is injected and the instance is created
+            PaymentHandler ph = ActivatorUtilities.CreateInstance<PaymentHandler>(serviceProvider);
+
+            ph.InitializePayment();
+        }
+    }
 }

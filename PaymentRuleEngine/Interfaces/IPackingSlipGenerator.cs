@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace PaymentRuleEngine.Interfaces
+namespace PaymentRuleEngine
 {
-	public class IPackingSlipGenerator
+	public interface IPackingSlipGenerator
 	{
-		void GeneratePackingSlip(PackingSlipDestination _packingSlipDestination);
+		void GeneratePackingSlip(PackingSlipTypes _PackingSlipTypes);
 	}
 }

@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace PaymentRuleEngine.Interfaces
+namespace PaymentRuleEngine
 {
-	class IVideoLearning
-	{
-	}
+    public interface IVideoLearning : IProduct
+    {
+        void AddFreeFirstAidVideo();
+    }
 }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace PaymentRuleEngine.EmailNotification
+namespace PaymentRuleEngine
 {
     public class EmailNotifier : IEmailNotifier
     {

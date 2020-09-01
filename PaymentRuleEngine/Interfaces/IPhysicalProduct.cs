@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace PaymentRuleEngine.Interfaces
+namespace PaymentRuleEngine
 {
     public interface IPhysicalProduct : IProduct
     {
