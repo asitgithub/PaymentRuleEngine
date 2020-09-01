@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentRuleEngine", "PaymentRuleEngine.csproj", "{8B0E486E-39D0-4344-9476-7CB2F10B922A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentRuleEngine", "PaymentRuleEngine.csproj", "{8B0E486E-39D0-4344-9476-7CB2F10B922A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentRuleEngineTest", "..\PaymentRuleEngineTest\PaymentRuleEngineTest.csproj", "{E3234E5E-FF6C-4E8D-B661-D1BF481E5912}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RuleEngine", "RuleEngine", "{53895A80-48CC-4874-A695-0DC3297EE164}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{7B3A3FDA-8DC2-47F0-AC7A-50D0B71A90CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{2FA70DB6-C233-4E9B-BA51-366BB90402B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +23,19 @@ Global
 		{8B0E486E-39D0-4344-9476-7CB2F10B922A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B0E486E-39D0-4344-9476-7CB2F10B922A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B0E486E-39D0-4344-9476-7CB2F10B922A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3234E5E-FF6C-4E8D-B661-D1BF481E5912}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3234E5E-FF6C-4E8D-B661-D1BF481E5912}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3234E5E-FF6C-4E8D-B661-D1BF481E5912}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3234E5E-FF6C-4E8D-B661-D1BF481E5912}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8B0E486E-39D0-4344-9476-7CB2F10B922A} = {7B3A3FDA-8DC2-47F0-AC7A-50D0B71A90CB}
+		{E3234E5E-FF6C-4E8D-B661-D1BF481E5912} = {2FA70DB6-C233-4E9B-BA51-366BB90402B0}
+		{7B3A3FDA-8DC2-47F0-AC7A-50D0B71A90CB} = {53895A80-48CC-4874-A695-0DC3297EE164}
+		{2FA70DB6-C233-4E9B-BA51-366BB90402B0} = {53895A80-48CC-4874-A695-0DC3297EE164}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F50517F5-0620-4DB7-8DF5-1A83755D0928}
