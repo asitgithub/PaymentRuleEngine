@@ -20,6 +20,7 @@ namespace PaymentRuleEngine
 
         public void MakePayment()
         {
+
             if (_videoType == VideoTypes.LearningToSki)
             {
                 Console.WriteLine("Payment was made successfully for Learning to Ski video");
