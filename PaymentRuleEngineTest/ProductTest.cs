@@ -1,13 +1,14 @@
-using System;
+using PaymentRuleEngine;
+using Moq;
 using Xunit;
 
-namespace PaymentRuleEngineTest
+namespace PaymentRuleEngine
 {
-    public class PhysicalProductTests : IClassFixture<PhysicalProductFixture>
+    public class ProductTests : IClassFixture<ProductFixture>
     {
-        private PhysicalProductFixture _fixture;
+        private ProductFixture _fixture;
 
-        public PhysicalProductTests(PhysicalProductFixture fixture)
+        public ProductTests(ProductFixture fixture)
         {
             _fixture = fixture;
 
@@ -24,9 +25,9 @@ namespace PaymentRuleEngineTest
         }
     }
 
-    public class PhysicalProductFixture
+    public class ProductFixture
     {
-        //public PhysicalProduct physicalProduct;
-        //public Mock<IPackingSlipGenerator> mockSlipGenerator;
+        public PhysicalProduct physicalProduct;
+        public Mock<IPackingSlipGenerator> mockSlipGenerator;
     }
 }

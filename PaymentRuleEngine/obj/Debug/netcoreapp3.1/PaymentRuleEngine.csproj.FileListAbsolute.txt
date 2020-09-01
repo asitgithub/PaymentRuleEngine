@@ -8,3 +8,6 @@ C:\Users\Asit_S\Desktop\Code\PaymentRuleEngine\PaymentRuleEngine\bin\Debug\netco
 C:\Users\Asit_S\Desktop\Code\PaymentRuleEngine\PaymentRuleEngine\bin\Debug\netcoreapp3.1\PaymentRuleEngine.pdb
 C:\Users\Asit_S\Desktop\Code\PaymentRuleEngine\PaymentRuleEngine\obj\Debug\netcoreapp3.1\PaymentRuleEngine.dll
 C:\Users\Asit_S\Desktop\Code\PaymentRuleEngine\PaymentRuleEngine\obj\Debug\netcoreapp3.1\PaymentRuleEngine.pdb
+C:\Users\Asit_S\Desktop\Code\PaymentRuleEngine\PaymentRuleEngine\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Asit_S\Desktop\Code\PaymentRuleEngine\PaymentRuleEngine\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Asit_S\Desktop\Code\PaymentRuleEngine\PaymentRuleEngine\obj\Debug\netcoreapp3.1\PaymentRuleEngine.csproj.CopyComplete

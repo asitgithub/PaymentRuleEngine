@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Text;
 using Xunit;
 using PaymentRuleEngineTest;
+using Moq;
+using PaymentRuleEngine;
 
 namespace PaymentRuleEngineTest
 {
