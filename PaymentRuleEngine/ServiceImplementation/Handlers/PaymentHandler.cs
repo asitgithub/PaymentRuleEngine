@@ -23,7 +23,7 @@ namespace PaymentRuleEngine
         }
         public void InitializePayment()
         {
-            Console.WriteLine("A simple demonstration of Business Rules Engine");
+            Console.WriteLine("This is Rule Engine app");
             Console.WriteLine();
 
             if (_payments != null)

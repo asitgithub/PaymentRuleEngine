@@ -8,24 +8,22 @@ namespace PaymentRuleEngine
 {
     public class PhysicalProduct : IPhysicalProduct
     {
-        private readonly IPackingSlipGenerator _printService;
-        public PhysicalProduct(IPackingSlipGenerator printService)
+        private readonly IPackingSlipGenerator _generateSlipService;
+        public PhysicalProduct(IPackingSlipGenerator generateSlipService)
         {
-            _printService = printService;
+            _generateSlipService = generateSlipService;
         }
 
         public void GeneratePackingSlipForShipping()
         {
-            _printService.GeneratePackingSlip(PackingSlipTypes.Shipping);
+            _generateSlipService.GeneratePackingSlip(PackingSlipTypes.Shipping);
         }
 
         public void MakePayment()
         {
             Console.WriteLine("Payment made for Physical Product.");
             GeneratePackingSlipForShipping();
-
-            //Setting up 10% commision for the agent.
-            PayCommisionToAgent(10);
+            PayCommisionToAgent(10);  //Commission Value %
         }
 
         public void PayCommisionToAgent(int commisionInPercentage)

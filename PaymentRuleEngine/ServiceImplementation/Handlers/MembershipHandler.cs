@@ -20,10 +20,12 @@ namespace PaymentRuleEngine
         {
             if (_membershipType == MembershipType.Regular)
             {
+                Console.WriteLine("This is requirement 3");
                 Console.WriteLine("Membership activated");
             }
             if (_membershipType == MembershipType.Premium)
             {
+                Console.WriteLine("This is requirement 4");
                 Console.WriteLine("Membership upgraded to Premium");
             }
         }

@@ -6,19 +6,19 @@ namespace PaymentRuleEngine
 {
     public class Book : IBook
     {
-        private readonly IPackingSlipGenerator _printService;
-        public Book(IPackingSlipGenerator printService)
+        private readonly IPackingSlipGenerator _generateSlipService;
+        public Book(IPackingSlipGenerator generateSlipService)
         {
-            _printService = printService;
+            _generateSlipService = generateSlipService;
         }
         public void GeneratePackingSlipForRoyaltyDepartment()
         {
-            _printService.GeneratePackingSlip(PackingSlipTypes.RoyaltyDepartment);
+            _generateSlipService.GeneratePackingSlip(PackingSlipTypes.RoyaltyDepartment);
         }
 
         public void GeneratePackingSlipForShipping()
         {
-            _printService.GeneratePackingSlip(PackingSlipTypes.Shipping);
+            _generateSlipService.GeneratePackingSlip(PackingSlipTypes.Shipping);
         }
 
         public void MakePayment()
